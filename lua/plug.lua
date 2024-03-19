@@ -76,6 +76,15 @@ return manager.add{
     {'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     };
+    
+    -- Comment
+    'numToStr/Comment.nvim';
+    
+    -- ByeBuff
+    'moll/vim-bbye';
+
+    -- Which keys
+    'folke/which-key.nvim';
 
     -- LSP
     'neovim/nvim-lspconfig';
@@ -91,6 +100,9 @@ return manager.add{
         tag = "v2.*",
         run = "make install_jsregexp"
     };
+
+    -- Lspkind
+    'onsails/lspkind.nvim';
 
     -- Cmp
     'hrsh7th/nvim-cmp';
